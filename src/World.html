@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Shaun Munshi: Assignment 3</title>
+    <!--Grader Notes: I used the Professors Video to generate a majority of the code in World.js
+    Past this, I used my previous code from BlockyAnimal.js to set up, Cylinder.js to render
+    A cylinder. I used ChatGPT to help with the texture code and provide some simple logic
+    on texture wrapping, but even that I ended up modifying to fit the assignment.-->
+  </head>
+
+  <body onload="main()">
+
+
+    <canvas id="webgl" width="700" height="700">
+    Please use a browser that supports "canvas"
+    </canvas>
+    <br><br>
+
+    <p>
+      Horizontal Slider:<input type="range" min="0" max="700" value="0" class="slider" id="camX">
+      
+        Vertical Slider:<input type="range" min="0" max="700" value="0" class="slider" id="camY">
+      
+
+
+
+    <script src="../lib/webgl-utils.js"></script>
+    <script src="../lib/webgl-debug.js"></script>
+    <script src="../lib/cuon-utils.js"></script>
+    <script src="../lib/cuon-matrix-cse160.js"></script>
+    <script src="Circle.js"></script>
+    <script src="Cube.js"></script>
+    <script src="World.js"></script>
+    <script src="Cylinder.js"></script>
+    <script src="Triangle.js"></script>
+    <script src="Point.js"></script>
+  </body>
+</html>
